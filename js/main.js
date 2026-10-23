@@ -139,8 +139,8 @@ const WORKS = [
     title:'《背着善宰跑》影视二创',
     en:'Fan Edit · Lovely Runner',
     cat:'短视频', tag:'short', year:'2024.08',
-    cover:'assets/works/mashup/1.jpg',
-    imgs:['1','2','3','4'].map(n=>`assets/works/mashup/${n}.jpg`),
+    cover:'assets/works/mashup/1.jpg?v=20261023b',
+    imgs:['1','2','3','4'].map(n=>`assets/works/mashup/${n}.jpg?v=20261023b`),
     card:'韩剧《背着善宰跑》音乐卡点二创混剪，11 秒重组名场面，铺陈浪漫氛围叙事。B站获赞收藏 800。',
     facts:[
       ['时长','11.8秒'],
