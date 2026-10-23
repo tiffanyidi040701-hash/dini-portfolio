@@ -21,7 +21,7 @@ const WORKS = [
       '作品探索 AI 工具在跨文化叙事中的表达边界，最终从众多作品中脱颖而出获二等奖。'
     ],
     link:'https://weixin.qq.com/sph/AF5dKiT9d5',
-    linkText:'微信视频号观看完整影片 ↗'
+    linkText:'去微信视频号观看完整影片'
   },
   {
     id:'yizi',
@@ -44,7 +44,7 @@ const WORKS = [
       '官位本应为百姓谋福，若眼中只剩位置，责任便成虚妄。活人与鬼魂的争夺，实则是权力惯性对人格的绞杀——将存在感系于椅子，便已甘愿为鬼。本片使用即梦 AI 图片完成画面生成与风格定调，Seedance 2.0 实现动态视频，从分镜到生成全流程独立完成。'
     ],
     link:'https://www.bilibili.com/video/BV1JVApz9Etn/',
-    linkText:'B 站观看完整影片 ↗'
+    linkText:'去哔哩哔哩观看完整影片'
   },
   {
     id:'yuanni',
@@ -67,7 +67,7 @@ const WORKS = [
       '全片以 4K 规格拍摄，本人担任导演与摄影，主导视觉风格定调、镜头设计与现场拍摄。'
     ],
     link:'https://www.bilibili.com/video/BV1M9nb6HEpY/',
-    linkText:'去哔哩哔哩看片 ↗'
+    linkText:'去哔哩哔哩观看完整影片'
   },
   {
     id:'fenbei',
@@ -89,7 +89,7 @@ const WORKS = [
       '本片作为「复旦学子的生活观察」系列作品，于 2024 年 8 月发布于澎湃新闻。本人担任导演、拍摄与剪辑，全流程把控叙事节奏与视觉表达。'
     ],
     link:'https://m.thepaper.cn/newsDetail_forward_28359255',
-    linkText:'澎湃新闻观看完整纪录片 ↗'
+    linkText:'去澎湃新闻观看完整影片'
   },
   {
     id:'noschool',
@@ -111,7 +111,7 @@ const WORKS = [
       '视觉上采用「像素游戏风」后期包装，营造穿越至赛博游戏世界的沉浸感；机制上引入「鲶鱼嘉宾」制造竞争张力。全季 5 期，单期 20 分钟，以「小而美」的制作模式实现高质量内容输出。本人担任导演、拍摄与剪辑，全程参与策划、场地对接与后期包装。'
     ],
     link:'https://weixin.qq.com/sph/AAcGuNTEgf',
-    linkText:'微信视频号观看节目 ↗'
+    linkText:'去微信视频号观看完整影片'
   },
   {
     id:'interview',
@@ -132,7 +132,7 @@ const WORKS = [
       '竖屏短视频形式贴合社交媒体传播节奏，单条视频在微信视频号取得播放量 1.3w、获赞 300 的成绩。'
     ],
     link:'https://weixin.qq.com/sph/AvxgghYVT9',
-    linkText:'微信视频号观看 ↗'
+    linkText:'去微信视频号观看完整影片'
   },
   {
     id:'mashup',
@@ -154,7 +154,7 @@ const WORKS = [
       '作品在 B 站取得播放量 4k、获赞收藏 800 的反馈。'
     ],
     link:'https://www.bilibili.com/video/BV1uzaregEQu/',
-    linkText:'B 站观看二创 ↗'
+    linkText:'去哔哩哔哩观看完整影片'
   }
 ];
 
@@ -229,7 +229,7 @@ function openModal(w){
   if(w.award){awardBox.innerHTML=`<svg viewBox="0 0 24 24"><use href="#ic-trophy"/></svg><span>${w.award}</span>`;awardBox.style.display='flex';}
   else awardBox.style.display='none';
   const link=document.getElementById('mLink');
-  if(w.link){link.href=w.link;link.style.display='inline-flex';document.getElementById('mLinkText').textContent=w.linkText||'观看完整作品 ↗';}
+  if(w.link){link.href=w.link;link.style.display='inline-flex';document.getElementById('mLinkText').textContent=w.linkText||'观看完整作品';}
   else link.style.display='none';
 
   // gallery
