@@ -51,8 +51,8 @@ const WORKS = [
     title:'广告片《愿你》',
     en:'Brand Film · Wish You',
     cat:'品牌广告', tag:'ad', year:'2024.06',
-    cover:'assets/works/yuanni/2.jpg',
-    imgs:['2','1','3','4','5'].map(n=>`assets/works/yuanni/${n}.jpg`),
+    cover:'assets/works/yuanni/3.jpg',
+    imgs:['3','2','1','4','5'].map(n=>`assets/works/yuanni/${n}.jpg`),
     card:'为朗圣药业打造的品牌广告，以女书「生而自由，爱而无惧」为线索，致敬女性的生育与人生选择权。',
     facts:[
       ['时长','1分27秒'],
